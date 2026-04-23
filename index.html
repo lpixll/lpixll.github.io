@@ -3,55 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio - Lama</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         body {
             margin: 0;
             font-family: "Segoe UI", Arial, sans-serif;
-            background: #f4f4f4;
+            background: #f2f4f7;
             color: #333;
         }
 
+        /* Header */
         header {
             background: linear-gradient(135deg, #4b79a1, #283e51);
             color: white;
-            padding: 60px 20px;
+            padding: 80px 20px;
             text-align: center;
         }
 
         header h1 {
             margin: 0;
-            font-size: 40px;
+            font-size: 48px;
+            font-weight: bold;
         }
 
         header p {
             margin-top: 10px;
-            font-size: 18px;
+            font-size: 20px;
             opacity: 0.9;
         }
 
+        /* Sections */
         section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
             background: white;
-            margin-top: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
         }
 
         h2 {
             color: #283e51;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            font-size: 28px;
         }
 
-        a {
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #e8eef3;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #283e51;
+        }
+
+        /* Projects */
+        .project-card {
+            background: #f7f9fb;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #dce3ea;
+        }
+
+        .project-card a {
             color: #4b79a1;
             font-weight: bold;
             text-decoration: none;
         }
 
-        a:hover {
+        .project-card a:hover {
             text-decoration: underline;
+        }
+
+        /* Contact */
+        .contact a {
+            color: #4b79a1;
+            font-weight: bold;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -59,33 +95,5 @@
 <body>
 
 <header>
-    <h1>لاما السبيعي</h1>
-    <p>مطورّة ويب – مهتمة بالبرمجة والتقنية</p>
-</header>
-
-<section>
-    <h2>من أنا</h2>
-    <p>
-        طالبة تقنية ومهتمة بتطوير الويب، أحب بناء واجهات بسيطة ومرتبة،
-        وأسعى لتطوير مهاراتي في البرمجة خطوة بخطوة.
-    </p>
-</section>
-
-<section>
-    <h2>مهاراتي</h2>
-    <p>HTML – CSS – PHP – GitHub – MySQL</p>
-</section>
-
-<section>
-    <h2>مشاريعي</h2>
-    <p>مشروع أمان:</p>
-    <a href="https://github.com/lpixll/Aman">اضغط هنا لزيارة المشروع</a>
-</section>
-
-<section>
-    <h2>تواصل معي</h2>
-    <p>GitHub: <a href="https://github.com/lpixll">lpixll</a></p>
-</section>
-
-</body>
-</html>
+    <h1>لــامــا</h1>
+    <p>مطورّة ويب – مهتمة بال
