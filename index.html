@@ -5,15 +5,15 @@
     <title>Portfolio - Lama Alsubaie</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- خط عربي جميل -->
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
 
     <style>
         body {
             margin: 0;
             font-family: "Tajawal", sans-serif;
-            background: #f2f4f7;
+            background: #f5f6f7;
             color: #333;
+            line-height: 1.8;
         }
 
         /* Navbar */
@@ -21,18 +21,22 @@
             background:#283e51;
             padding:15px;
             text-align:center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
         nav a {
             color:white;
-            margin:0 15px;
+            margin:0 18px;
             text-decoration:none;
-            font-weight:bold;
+            font-weight:600;
             font-size:18px;
+            transition: 0.2s;
         }
 
         nav a:hover {
-            text-decoration:underline;
+            opacity: 0.7;
         }
 
         /* Header */
@@ -40,19 +44,19 @@
             background: url('https://i.imgur.com/7YV1F4P.png');
             background-size: cover;
             background-position: center;
-            padding: 90px 20px;
+            padding: 110px 20px;
             text-align: center;
             color: white;
         }
 
         header h1 {
             margin: 0;
-            font-size: 50px;
+            font-size: 48px;
             font-weight: bold;
         }
 
         header p {
-            margin-top: 10px;
+            margin-top: 12px;
             font-size: 22px;
             opacity: 0.95;
         }
@@ -61,16 +65,18 @@
         section {
             background: white;
             max-width: 900px;
-            margin: 40px auto;
+            margin: 35px auto;
             padding: 40px;
             border-radius: 14px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
         }
 
         h2 {
             color: #283e51;
             margin-bottom: 20px;
-            font-size: 28px;
+            font-size: 26px;
+            border-right: 5px solid #283e51;
+            padding-right: 10px;
         }
 
         /* Skills */
@@ -89,6 +95,7 @@
             display: flex;
             align-items: center;
             gap: 8px;
+            font-size: 16px;
         }
 
         /* Projects */
@@ -117,16 +124,16 @@
         /* Footer */
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 25px;
             margin-top: 40px;
             color: #555;
+            font-size: 15px;
         }
     </style>
 </head>
 
 <body>
 
-<!-- Navbar -->
 <nav>
     <a href="index.html">الرئيسية</a>
     <a href="about.html">من أنا</a>
